@@ -1,6 +1,6 @@
-# 🛳 Titanic EDA – Internship Task (Prodigy InfoTech)
+# 🛳 Titanic EDA 
 
-This repository contains my data cleaning and exploratory data analysis (EDA) of the Titanic dataset as part of Task 2 for my data science internship.
+This repository contains my data cleaning and exploratory data analysis (EDA) of the Titanic dataset.
 
 ## 📂 Dataset Used
 [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic/data)

@@ -1,26 +1,62 @@
-# 🛳 Titanic EDA 
+# 🚢 Titanic Survival Analysis – Exploratory Data Insights by Khushi Dalal
 
-This repository contains my data cleaning and exploratory data analysis (EDA) of the Titanic dataset.
+> ✨ Data Science Internship Project @ Prodigy InfoTech  
+> 🎯 Exploratory Data Analysis • Python • Visual Storytelling  
 
-## 📂 Dataset Used
-[Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic/data)
+---
 
-## ✅ Tasks Performed
-- Cleaned null values from `Age`, `Embarked`
-- Dropped column `Cabin` due to high missing percentage
-- Created features: `FamilySize`, extracted `Title` from `Name`
-- Analyzed survival trends based on class, gender, fare, and age
-- Visualized patterns using seaborn & matplotlib
-- Created a correlation heatmap for numeric features
+## 📁 Dataset Overview
 
-## 📊 Key Insights
-- Females had significantly higher survival rates than males
-- Passengers in 1st class had better survival odds than 2nd or 3rd
-- Higher fare correlated with greater survival probability
-- Medium-sized families survived more often
-- Social titles (like Mr, Miss, etc.) highlighted survival patterns
+- Source: [Kaggle Titanic Dataset](https://www.kaggle.com/competitions/titanic/data)
+- Format: `train.csv` with 891 rows × 12 columns  
+- Objective: Uncover survival patterns and visualize key insights
 
-## 👩‍💻 Author
-**Khushi Dalal** – Data Science Intern  
-📬 [khushidalal0001@gmail.com](mailto:khushidalal0001@gmail.com)
+---
+
+## 🧼 Data Cleaning Summary
+
+- Filled missing `Age` values using median  
+- Dropped `Cabin` column due to sparse entries  
+- Imputed `Embarked` with mode (‘S’)  
+- Confirmed data types and overall structure
+
+---
+
+## 📊 Visual Insights (Embedded in Notebook)
+
+All charts are directly embedded in the notebook — scroll through analysis and visuals side by side!
+
+### 1️⃣ Survival by Gender  
+✔️ Females had nearly **double** the survival rate of males
+
+### 2️⃣ Survival by Passenger Class  
+✔️ 1st-class passengers showed highest survival odds
+
+### 3️⃣ Fare Distribution  
+✔️ Majority paid < ₹500, but some outliers exceeded ₹40,000
+
+### 4️⃣ Age Distribution  
+✔️ Age clustered around 20–35; children under 10 fared better
+
+### 5️⃣ Survival by Fare and Age  
+✔️ Wealth and youth showed strong survival advantage
+
+### 6️⃣ 🔥 Correlation Heatmap  
+✔️ Survival correlated with `Pclass`, `Fare`, and `SibSp`
+
+---
+
+## 📌 Key Takeaways
+
+- Data cleaning transforms messy data into meaningful insight  
+- Visualization drives intuitive storytelling  
+- Socioeconomic privilege deeply influenced survival outcomes  
+
+## 👩‍💻 Built With
+
+- Python (Pandas, NumPy, Matplotlib, Seaborn)  
+- Jupyter Notebook via Google Colab  
+- GitHub for version control and sharing
+
+---
 
